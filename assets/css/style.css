@@ -1,0 +1,215 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+input[type="text"], input[type="password"], input[type="search"]{
+    color: #5d5d5d;
+    width: 60%;
+    padding: 8px;
+}
+
+h1,h2{
+    font: 170% 'century gothic';
+    margin: 0 0 15px 0;
+    padding: 15px 0 15px 0;
+    color: #000;
+}
+h2{
+    font-size: 140%;
+}
+
+a, a:hover {
+    color: #ff4200;
+}
+
+hr{
+    border: solid 1px #f3f3f3;
+}
+body{
+    font-size:1.2em;
+    background-color: #fff;
+    color: #555;
+}
+
+.header{
+    background-color: #001429;
+    height: 177px;
+    font-size: 0.8em;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 900px;
+    height: 131px;
+}
+
+.logo{
+    width: 880px;
+    padding-bottom: 40px;
+}
+
+.main, .logo, .footer, .menubar{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.logo h1, .logo h2{
+    font: normal 300% 'century gothyc', arial, sans-serif;
+    margin: 0 0 0 5px;
+}
+
+
+.slogan h1 a, .slogan h2 a{
+    color: #ff4200;
+    padding: 0 22px 0 22px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+}
+.slogan h1{
+    font-size: 2em;
+}
+.slogan h2{
+    font-size: 0.8em;
+    padding: 4px 0 0 0;
+    color: #ffffff;
+}
+
+.menubar{
+    width: 900px;
+    height: 45px;
+}
+ul.menu{
+    float: right;
+}
+ul.menu li{
+    float: left;
+    padding: 0 0 0 9px;
+    list-style: none;
+    margin: 1px 2px 0 0;
+}
+ul.menu li a{
+    border: white 3px;
+    font: bold 100% sans-serif;
+    display: block;
+    height: 20px;
+    padding: 6px 35px 5px 18px;
+    color: white;
+    text-decoration: none;
+}
+ul.menu li.selected a{
+    color: #ff4200;
+}
+
+ul.menu li a:hover{
+    color: #ff4200;
+}
+
+.site_content {
+    width: 880px;
+    overflow:hidden;
+    margin: 20px auto 0 auto;
+    background-color: white;
+}
+
+.sidebar_container {
+    float: right;
+    width: 224px;
+}
+
+.sidebar {
+    float: right;
+    width: 240px;
+    padding: 5%;
+    margin: 0 0 16px 0;
+    border: solid 1px #f2f2f2;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.sidebar h2 {
+    color: #ff4200;
+}
+
+.btn {
+    padding: 8px;
+    background-color: white;
+    cursor:pointer;
+}
+
+input, textarea {
+    outline: none;
+    border: none;
+}
+
+.passreg_text{
+    font-size: 0.7em;
+    padding-top: 5px;
+}
+
+.sidebar ul{
+    margin: 0;
+}
+.sidebar ul li{
+    list-style-type: none;
+    margin: 0;
+}
+.rating_sidebar{
+    float: right;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    padding: 28px 0 5px 0;
+    text-align: center;
+    background-color: #001429;
+    color: #000;
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 900px;
+}
+
+.footer a{
+    color: #ff4200;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: white;
+}
+.footer p{
+    font-size: 0.8em;
+    padding: 0 0 10px 0;
+    color: #ff4200;
+}
+
+.content{
+    text-align:left;
+    width: 620px;
+    padding: 0 0 0 5px;
+    float: left;
+}
+.film_block{
+     margin-bottom: 5%;
+ }
+
+.film_block h1{
+    size: 30px;
+}
+.film_block img{
+    border: solid 3px grey;
+    border-radius: 5px;
+    width: 22%;
+}
+
+.posts .post_content{
+     font-size: 0.8em;
+ }
+.posts a{
+    text-decoration: none;
+}
+.posts p a{
+    font-size: 0.8em;
+}
