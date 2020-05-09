@@ -154,6 +154,11 @@ input, textarea {
     list-style-type: none;
     margin: 0;
 }
+
+.sidebar a{
+    font-size: 0.8em;
+}
+
 .rating_sidebar{
     float: right;
 }
@@ -186,11 +191,17 @@ input, textarea {
 }
 
 .content{
-    text-align:left;
-    width: 620px;
-    padding: 0 0 0 5px;
-    float: left;
+     text-align:left;
+     width: 620px;
+     padding: 0 0 0 5px;
+     float: left;
+ }
+
+.content h1{
+    font-weight: bold;
+    color: white;
 }
+
 .film_block{
      margin-bottom: 5%;
  }
@@ -209,7 +220,33 @@ input, textarea {
  }
 .posts a{
     text-decoration: none;
+    margin-bottom: 5px;
 }
 .posts p a{
     font-size: 0.8em;
+}
+
+.posts p{
+    color: #ffffff;
+    margin: 15px;
+}
+
+.movie_Trailer p span{
+    color: #ffffff;
+    font-size: 0.8em;
+    margin-right: 10px;
+}
+
+.description {
+    display: block;
+    height: 220px;
+}
+.description p {
+    color: #ffffff;
+}
+
+
+.description img{
+    float: left;
+    margin-right: 10px;
 }
