@@ -126,7 +126,9 @@ ul.menu li a:hover{
     border-radius: 5px;
     background-color: #f9f9f9;
 }
-
+.sidebar p {
+    font-size: 0.9em;
+}
 .sidebar h2 {
     color: #ff4200;
 }
@@ -200,6 +202,34 @@ input, textarea {
 .content h1{
     font-weight: bold;
     color: white;
+}
+
+.content p{
+    margin-bottom: 15px;
+}
+.content p input{
+    color: #ffffff;
+    background-color: #003184;
+    width: 500px;
+    height: 15px;
+}
+.content p textarea{
+    color: #ffffff;
+    height: 200px;
+    width: 517px;
+    background-color: #003184;
+}
+
+.content button {
+    background-color: #002c46;
+    color: #ffffff;
+    height: 45px;
+    width: 100px;
+}
+
+.content h4{
+    color: #ffffff;
+    margin-bottom: 15px;
 }
 
 .film_block{

@@ -2,9 +2,84 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>contact | BTU Movies</title>
+    <meta name="description" content="Movies პორტალი">
+    <meta name="keywords" content="ფილმები, პორტალი, კინო, HD, ახალი">
+    <link rel="stylesheet" href="assets/css/style.css">http://localhost:63342/MetroMovies/index.html?_ijt=g8imlhrum93rrbrhh7bo6o0nk
 </head>
 <body>
+    <div class="main">
+        <div class="header">
+            <div class="logo">
+                <div class="slogan">
+                    <h1><a href="#">BTU Movies</a></h1>
+                    <h2><a href="#">Student's choise</a></h2>
+                </div>
+                <div class="menubar">
+                    <ul class="menu">
+                        <li class="selected"><a href="#">მთავარი</a> </li>
+                        <li><a href="movies.html">ფილმები</a> </li>
+                        <li><a href="#">სერიალები</a> </li>
+                        <li><a href="#">სიახლეები</a> </li>
+                        <li><a href="contact.html">კონტაქტი</a> </li>
+                    </ul>
+                </div>
+            </div>
 
+        </div>
+        <div class="site_content">
+            <div class="sidebar_container">
+
+                <div class="sidebar">
+                    <h2>ძიება</h2>
+                    <form method="post" action="#" id="search_form" >
+                        <input type="search" name="search_field" placeholder="ტექსტი" />
+                        <input type="submit" class="btn" value="ძებნა" />
+                    </form>
+                </div>
+
+                <div class="sidebar">
+                    <h2>ავტორიზაცია</h2>
+                    <form method="post" action="#" id="login" >
+                        <input type="text" name="username_field" placeholder="მომხმარებელი" />
+                        <input type="password" name="password_field" placeholder="პაროლი" />
+                        <input type="submit" class="btn" value="შესვლა" />
+                        <div class="passreg_text">
+                            <span><a href="#">დაგავიწყდა პაროლი?</a></span> |
+                            <span><a href="#reg">რეგისტრაცია</a></span>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="sidebar">
+                    <h2>ახალი ამბები</h2>
+                    <span>11.04.2020</span>
+                    <p>რატომ უნდა უყუროთ "Doctor Sleep"-ს</p>
+                    <a href="#read">წაკითხვა</a>
+                </div>
+
+                <div class="sidebar">
+                    <h2>რეიტინგი</h2>
+                    <ul>
+                        <li><a href="#">ინტერსტელარი</a><span class="rating_sidebar">8.2</span></li>
+                        <li><a href="#">შმაქსი</a><span class="rating_sidebar">8.5</span></li>
+                        <li><a href="#">მაქსი</a><span class="rating_sidebar">8.6</span></li>
+                        <li><a href="#">აქსი</a><span class="rating_sidebar">8.2</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content">
+                <h1>კონტაქტი</h1>
+                <h4 for="comment">გაგვიზიარე შენი შთაბეჭდილება</h4>
+                <form action="post">
+                    <p><input type="text" id="name" placeholder="name"></p>
+                    <p><input type="text" id="email" placeholder="email"></p>
+                    <p><textarea name="comment" id="comment" placeholder="თქვენი შეტყობინება"></textarea></p>
+                    <button type="submit"> გაგზავნა </button>
+                </form>
+
+            </div>
+        </div>
+    </div>
 </body>
 </html>
