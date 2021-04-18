@@ -25,6 +25,7 @@ a, a:hover {
 }
 
 hr{
+    width: 570px;
     border: solid 1px #f3f3f3;
 }
 body{
@@ -35,7 +36,6 @@ body{
 
 .header{
     background-color: #001429;
-    height: 177px;
     font-size: 0.8em;
     margin-left: 0px;
     margin-right: 0px;
@@ -89,11 +89,13 @@ ul.menu li{
     margin: 1px 2px 0 0;
 }
 ul.menu li a{
-    border: white 3px;
+
+    border: white 1px solid;
+    border-radius: 3px;
     font: bold 100% sans-serif;
     display: block;
     height: 20px;
-    padding: 6px 35px 5px 18px;
+    padding: 6px 25px;
     color: white;
     text-decoration: none;
 }
@@ -218,6 +220,7 @@ input, textarea {
     height: 200px;
     width: 517px;
     background-color: #003184;
+    resize: none;
 }
 
 .content button {
@@ -247,6 +250,7 @@ input, textarea {
 
 .posts .post_content{
      font-size: 0.8em;
+
  }
 .posts a{
     text-decoration: none;
@@ -256,7 +260,7 @@ input, textarea {
     font-size: 0.8em;
 }
 
-.posts p{
+.posts p, .posts h2{
     color: #ffffff;
     margin: 15px;
 }
@@ -272,6 +276,7 @@ input, textarea {
     height: 220px;
 }
 .description p {
+    width: 585px;
     color: #ffffff;
 }
 
